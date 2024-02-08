@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(to left, #5290ed, #0349ba);
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
