@@ -7,3 +7,15 @@ header{
     padding: 10px;
     text-align: center;
 }
+
+header li{
+    padding: 15px;
+    font-family: bold;
+    font-size: 20px;
+}
+
+main p{
+    color: white;
+    font-size: 32px;
+
+}
