@@ -1,0 +1,49 @@
+#paiDeTodos{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../Entrar/bg-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#filhaDoPai{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#filhaDoPai > .camposInformacoes{
+    margin: 10px;
+}
+
+#divBotton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#divBotton > button{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+#divBotton > button:hover{
+    background-image: linear-gradient(rgb(245, 7, 253),#230349);
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+#divBotton > button > a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#divBotton > button > a:hover{
+    color: white;
+    transition: 0.4s;
+}
