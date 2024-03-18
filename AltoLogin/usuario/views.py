@@ -4,9 +4,9 @@ from django.shortcuts import render
 def HomePage(request):
     return render(request, 'home.html')
     
-#def LoginPage(request):
+def LoginPage(request):
+    return render(request, 'login.html')
     
-    
-#def RegisterPage(request):
-    
+def RegisterPage(request):
+    return render(request, 'cadastro.html')
     
