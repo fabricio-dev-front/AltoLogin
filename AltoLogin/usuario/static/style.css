@@ -1,0 +1,37 @@
+#father{
+    height: 100vh;
+}
+
+#son{
+    height: 100%;
+}
+
+#son > #headbox > #header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#son > #headbox > #header > h1{
+    font-family: "Kode Mono", monospace;
+    font-size: 32px;
+}
+
+#son > #headbox > #header > .unorderedList{
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#son > #headbox > #header > .unorderedList > li > a{
+    text-decoration: none;
+    font-family: "Kode Mono", monospace;
+    color: rgba(105, 105, 105, 0.579);
+}
+
+#son > #headbox > #header > .unorderedList > li > a:hover{
+    color: black;
+    box-shadow: 0px 2px black;
+    transition: 0.7s;
+}
