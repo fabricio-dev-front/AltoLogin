@@ -19,7 +19,11 @@ body{
 }
 
 #filhaDoPai > .camposInformacoes{
-    margin: 10px;
+    margin: 5px;
+}
+
+#filhaDoPai > .camposInformacoes > label > span{
+    font-size: 18px;
 }
 
 #divBotton{
@@ -29,7 +33,7 @@ body{
 }
 
 #divBotton > button{
-    width: 200px;
+    width: 190px;
     height: 35px;
     border-radius: 8px;
     border: none;
@@ -43,10 +47,6 @@ body{
 
 #divBotton > button > a{
     text-decoration: none;
-    font-size: 20px;
-}
-
-#divBotton > button > a:hover{
-    color: white;
-    transition: 0.4s;
+    color: black;
+    font-size: 15px;
 }

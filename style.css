@@ -1,3 +1,10 @@
+body{
+    background-image: url('assets/pagina-Inicial.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #father{
     height: 100vh;
 }
@@ -27,7 +34,7 @@
 #son > #headbox > #header > .unorderedList > li > a{
     text-decoration: none;
     font-family: "Kode Mono", monospace;
-    color: rgba(105, 105, 105, 0.579);
+    color: rgb(105, 105, 105);
 }
 
 #son > #headbox > #header > .unorderedList > li > a:hover{
