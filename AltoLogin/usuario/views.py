@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Usuario
 
 # Create your views here.
 def HomePage(request):
@@ -6,7 +7,7 @@ def HomePage(request):
     
 def LoginPage(request):
     return render(request, 'login.html')
-    
+
 def RegisterPage(request):
     return render(request, 'cadastro.html')
     
