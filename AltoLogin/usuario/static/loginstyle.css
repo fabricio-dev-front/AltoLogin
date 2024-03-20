@@ -1,0 +1,74 @@
+body{
+    background-image: url(bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#pai{
+    background-color: #24221f4a;
+    border-radius: 8px;
+    width: 500px;
+}
+
+div{
+    margin-top: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+.nome{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Kode Mono", monospace;
+}
+
+.input{
+    width: 300px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+#buttonLogar{
+    display: flex;
+    justify-content: center;
+}
+
+.botão{
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-image: linear-gradient(rgb(245, 7, 253),#230349); 
+}
+
+@keyframes animacao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.botão:hover{
+    animation-name: animacao;
+    transition: 0.7s;  
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 40px 5px rgba(245, 7, 253, 0.584);
+}
