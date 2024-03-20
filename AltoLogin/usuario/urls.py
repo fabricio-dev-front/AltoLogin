@@ -4,7 +4,7 @@ from rest_framework import routers
 from usuario.api import viewsets as userviewsets
 
 route = routers.DefaultRouter()
-route.register(r'cadastro', userviewsets.UsuarioViewSet, basename='Cadastro')
+route.register(r'profile', userviewsets.UsuarioViewSet, basename='Profile')
 
 
 urlpatterns = [
