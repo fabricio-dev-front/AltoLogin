@@ -10,6 +10,6 @@ route.register(r'cadastro', userviewsets.UsuarioViewSet, basename='Cadastro')
 urlpatterns = [
     path('', views.HomePage, name='HomePage'),
     path('login/', views.LoginPage, name='LoginPage'),
-    #path('register/', views.RegisterPage, name='RegisterPage'),
+    path('register/', views.RegisterPage, name='RegisterPage'),
     path('', include(route.urls))
 ]
